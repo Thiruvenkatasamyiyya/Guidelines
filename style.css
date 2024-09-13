@@ -1,0 +1,130 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Navigation Bar */
+nav ul {
+  list-style-type: none;
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul li {
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: #575757;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Content Styling */
+h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+div ul {
+  list-style-type: square;
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  /* Styles for mobile devices (Android, iPhone, etc.) */
+  nav ul {
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  nav ul li {
+      font-size: 16px;
+      padding: 10px 0;
+  }
+
+  .counsel {
+      flex-direction: column;
+      margin: 10px 0;
+  }
+
+  .card {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .background {
+      padding: 50px;
+      font-size: 50px;
+  }
+
+  .requirements {
+      padding: 50px;
+  }
+
+  .cs {
+      flex-direction: column;
+      padding: 30px;
+      height: auto;
+  }
+
+  .csinner {
+      flex-direction: column;
+      gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* Styles for larger screens (PC, Laptops) */
+  nav ul {
+      flex-direction: row;
+  }
+
+  .counsel {
+      flex-direction: row;
+  }
+
+  .card {
+      width: 150px;
+      margin: 0;
+  }
+
+  .background {
+      padding: 100px;
+      font-size: 70px;
+  }
+
+  .requirements {
+      padding: 100px;
+  }
+
+  .cs {
+      flex-direction: row;
+      padding: 60px;
+      height: 500px;
+  }
+
+  .csinner {
+      flex-direction: row;
+      gap: 200px;
+  }
+}

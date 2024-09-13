@@ -1,0 +1,86 @@
+1. User Interface (UI) Design
+A. Homepage/Dashboard
+Welcome Message: Personalize with a welcoming message or motivational quote.
+Navigation Menu: Include key sections like “Counseling Steps,” “University List,” “Application Tracker,” “FAQs,” and “Contact Support.”
+Search Bar: For quick access to information about engineering colleges, courses, and deadlines.
+B. Counseling Steps
+Step-by-Step Wizard: Use a clear, step-by-step wizard to guide users through the counseling process.
+Step 1: “Eligibility Check” – Simple form to assess eligibility based on academic qualifications.
+Step 2: “Choose Your Field” – Interactive survey or questionnaire to help students choose their specialization.
+Step 3: “Select Colleges” – Display colleges based on the student’s preferences and eligibility.
+Step 4: “Application Process” – List required documents and deadlines.
+C. University List
+Filter and Sort Options: Allow students to filter colleges by location, specialization, fees, and ranking.
+Comparison Tool: Enable students to compare different colleges side by side.
+College Profiles: Provide detailed profiles including courses offered, faculty, facilities, and student reviews.
+D. Application Tracker
+Status Updates: Track the status of applications, including submission, verification, and approval.
+Notifications: Send reminders for upcoming deadlines and required actions.
+Progress Overview: Visual progress bars or checklists to show completed and pending tasks.
+E. FAQs and Support
+Searchable FAQ Section: Address common queries about admissions, documentation, and eligibility.
+Live Chat/Support: Offer real-time assistance through chat or ticket-based support.
+Knowledge Base: Provide articles and guides on various aspects of the counseling and admissions process.
+2. User Experience (UX) Design
+A. Personalization
+Profile Management: Allow students to create and manage their profiles with details like academic history and career interests.
+Recommendations: Use algorithms to suggest colleges and courses based on user profile and preferences.
+B. Accessibility
+Responsive Design: Ensure the application is fully functional on desktops, tablets, and smartphones.
+Accessibility Features: Include options for text enlargement, high-contrast mode, and screen reader compatibility.
+C. Engagement
+Interactive Elements: Use interactive elements such as sliders for filtering options and maps for visualizing college locations.
+Gamification: Introduce elements like progress badges and achievement unlocks to motivate users.
+D. Feedback Mechanism
+Surveys and Ratings: Gather feedback on the user experience and satisfaction with the counseling process.
+Continuous Improvement: Regularly update the application based on user feedback and evolving requirements.
+3. Visual Design
+A. Color Scheme
+Primary Colors: Use calm and professional colors such as shades of blue and green to instill trust and focus.
+Accent Colors: Employ bright colors for call-to-action buttons and important notifications.
+B. Typography
+Headings and Subheadings: Use clear, bold fonts for headings (e.g., Arial, Helvetica).
+Body Text: Choose readable fonts for body text (e.g., Verdana, Roboto) with appropriate size and spacing.
+C. Imagery and Icons
+Relevant Images: Include images of campuses, classrooms, and student life to make the application more engaging.
+Icons: Use intuitive icons for actions like applying, tracking, and messaging.
+4. Functionality
+A. Data Security
+Secure Login: Implement secure authentication methods, including two-factor authentication (2FA).
+Data Encryption: Ensure all personal and application data is encrypted and stored securely.
+B. Integration
+APIs: Integrate with external databases for up-to-date information on colleges and courses.
+Document Upload: Provide a secure portal for uploading and managing application documents.
+C. Performance
+Speed: Optimize the application for fast load times and smooth performance.
+Scalability: Ensure the application can handle a high number of users and data without performance degradation.
+5. Content Guidelines
+A. Clear Instructions
+Simple Language: Use plain language and clear instructions to guide students through each step.
+Visual Aids: Include infographics, charts, and videos to explain complex processes.
+B. Regular Updates
+Timely Information: Keep content up-to-date with the latest information on admission procedures, deadlines, and requirements.
+Announcements: Use banners or notifications to communicate important updates or changes.
+By following these guidelines, you can create an application that effectively supports students through the engineering counseling and admission process, providing them with a user-friendly, informative, and engaging experience.
+
+
+
+
+
+
+
+
+
+
+
+
+I accept and confirm the current allotment.
+இப்போது எனக்கு ஒதுக்கப்பட்டதை நான் ஏற்று உறுதி செய்கிறேன்
+I accept the current allotment and opt for the upward movement. If allotted in upward movement, I confirm
+இப்போது எனக்கு ஒதுக்கப்பட்டதை தான் ஏற்கிறேன், ஆனால் எனது முந்தைய விருப்பங்களுக்கு முன்னேற வாய்ப்பு இருந்தால் ஏற்று உறுதி செய்கிறேன்
+I decline current allotment and opt for the upward movement. If allotted in upward movement, I confirm. If not allotted in upward movement, move to the next round.
+இப்போது எனக்கு ஒதுக்கப்பட்டதை நான் ஏற்கவில்லை, ஆனால் எனது முந்தைய விருப்பங்களுக்கு முன்னேற வாய்ப்பு இருந்தால் நான் அதை ஏற்று உறுதி செய்கிறேன்.
+முந்தைய விருப்பங்கள் ஒதுக்கப்பட வாய்ப்பு இல்லையெனில், அடுத்தக்கட்ட கலந்தாய்விற்கு வருகிறேன்
+I decline current allotment and move to the next round to enable participation as per the vacancy position of the round இப்போது எனக்கு ஒதுக்கப்பட்டதை நான் ஏற்கவில்லை. அடுத்தக்கட்ட கலந்தாய்விற்கு சென்று அதில் உள்ள காலியிடங்களுக்குப் பங்கேற்க விரும்புகிறேன்
+I decline current allotment and quit counselling. I am aware that I cannot participate in further rounds of counselling.
+இப்போது எனக்கு ஒதுக்கப்பட்டதை நான் நிராகரிக்கிறேன், நான் கலந்தாய்விலிருந்து வெளியேறுகிறேன். இனிமேல் கலந்தாய்வில் பங்கேற்க முடியாது என்று அறிவேன்

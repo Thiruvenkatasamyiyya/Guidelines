@@ -1,0 +1,386 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+
+
+
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 1000;
+    
+    
+}
+
+nav ul li {
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    background-color: #575757;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Content Styling */
+h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+div ul {
+    list-style-type: square;
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Counselling Steps Cards */
+.counsel {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: #fff;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    perspective: 1000px;
+    text-align: center;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.card-front {
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+
+.card-back {
+    background-color:  rgb(177, 196, 214);
+    border-radius: 10px;
+    color: black solid;
+    transform: rotateY(180deg);
+}
+
+/* University Card Styling */
+
+
+/* From Uiverse.io by Fcodingx */ 
+.ucard {
+    width: 190px;
+    height: 120px;
+    padding: 0.5rem;
+    background: rgba(198, 198, 198, 0.34);
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+    border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+    box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+    transform: skewX(10deg);
+    transition: .4s;
+    overflow: hidden;
+    color: white;
+  }
+  
+  .ucard:hover {
+    height: 254px;
+    transform: skew(0deg);
+  }
+  
+  .align {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-self: flex-start;
+  }
+  
+  .red {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ff605c;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+  }
+  
+  .yellow {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffbd44;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+  }
+  
+  .green {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00ca4e;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+  }
+  
+  .ucard h1 {
+    text-align: center;
+    margin: 1.3rem;
+    color: rgb(218, 244, 237);
+    text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+  }
+  
+
+
+/* home ************************ */
+.background{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 100px;
+    padding-right: 300px;
+    font-size: 70px;
+    font-family: fantasy;
+    background-image: url(home.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 780px;
+    width: 100%;
+}
+
+
+/* pre requirements .................... */
+
+.requirements{
+    background-image: url(requirement1.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 780px;
+    
+    color: white;
+    padding: 100px;
+    text-align: left;
+    
+    
+}
+.requirements p{
+    font-size: 60px;
+    margin-bottom: 75px;
+}
+.requirements li{
+    font-size: 28px;
+}
+
+/* counselling step ..................... */
+.cs{
+    background-color:  rgb(140, 156, 170);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: row;
+    
+    
+    height: 500px;
+    display: flex;
+    align-items: center;
+   
+    
+    justify-content: center;
+    gap: 8px;
+    padding: 60px;
+}
+.csinner{
+  display: flex;
+  /* flex-direction: row; */
+  gap: 200px;
+  
+}
+
+.csinner h3{
+  font-size: 70px;
+}
+
+/* choice filling ******************* */
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .cards .red {
+    /* background-color: #f43f5e; */
+    background-color: #70A9A1;
+  }
+  
+  
+  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 850px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .cards .card p.second-text {
+    font-size: .7em;
+  }
+  
+  .cards .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+
+
+  /* ......choice head......... */
+
+
+  .choicehead{
+   display: flex;
+   padding: 50px;
+   background-color: #1f363d;
+
+   
+
+  }
+  .head1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    background-color: #40798C;
+    height: 200px ;
+    width:600px ;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .head1 h3{
+    font-size: 70px;
+  }
+.headinner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+  gap: 100px;
+
+}
+
+.head2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  background-color: #1f363d;
+  height: 200px ;
+  width:600px ;
+  border-radius: 20px;
+  color: white;
+}
+.head2 p{
+  font-size: 30px;
+  /* font-weight: 200px; */
+  
+
+}
+
+/* final step................................ */
+
+.final{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+.fin{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding-right: 250px;
+  font-size: 40px;
+  
+
+
+}
+
+/* contact ------------------- */
+.contact{
+  gap: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  
+}
+
+
+
+/* choice >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.choice{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  align-items: center;
+  background-color: #40798C;
+}

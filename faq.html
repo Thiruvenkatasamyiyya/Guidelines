@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Section</title>
+    <link rel="stylesheet" href="faq.css">
+</head>
+<body>
+    <div class="faq-container">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-item">
+            <button class="faq-question">Is any need to contact to certificate verification centre?</button>
+            <div class="faq-answer">
+                <p>If you receive a call from the centre you should contact the certificate verification centre</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Will i pay any fees over the certificate centre?</button>
+            <div class="faq-answer">
+                <p>No fees overthere.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">others.....</button>
+            <div class="faq-answer">
+                <p>
+                    Contact us though the given emailID. </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
